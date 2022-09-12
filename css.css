@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Poppins:wght@100;300;400;500;600&family=Roboto&display=swap');
+body{
+    font-family: 'New Tegomin', serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('gym.jpg');
+}
+
+.left{
+    display: inline-block;
+    /* border:2px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.middle{
+    display: block;
+    width: 52%;
+    margin: 20px auto;
+    /* border:2px solid red; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border:2px solid red; */
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 24px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: 'New Tegomin', serif;
+    background-color: black;
+    margin: 0px 9px;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(60, 55, 55);
+}
+.container{
+    border: 2px solid white; 
+    margin: 110px 80px;
+    padding: 80px;
+    width: 33%;
+    border-radius: 28px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+.form-group input{
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+    display: block;
+    width: 508px;
+    font-size: 25px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+}
